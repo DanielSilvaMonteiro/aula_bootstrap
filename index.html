@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">                     <!--Idioma da página-->
+    <head>
+        <title>Minha Página</title>     <!--Título da Página-->
+        <meta charset="utf-8">          <!--Para acentuação e escrita correta-->
+
+        <!--Adicionando link para a pasta do bootstrap e utilizando o bootstrap css min-->
+        <link rel="stylesheet" type="text/css" href="aula_bootstrap/bootstrap/css/bootstrap.min.css">
+        <!--link para utilizar o arquivo style css da pasta cs-->
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    </head>
+
+    <body>
+
+         <!--barra de navegação grande (expand) com a classe navbar-light encontrado no css do bootstrap-->
+         <nav class="navbar navbar-expand-lg navbar-light margin">
+
+            <a class= "navbar-brand" href="#">
+                <img src="img/global.png" width="100" height="80"  alt="Logo Global Labs">
+            </a>
+
+            <div class="collapse navbar-collapse">
+                
+            <ul class="navbar-nav">
+
+            <li class="nav-item">
+            <a class="nav-link" href="#quemsomos">Quem somos</a>
+            </li>
+
+            <li class="nav-item">
+            <a class="nav-link" href="#parceiros">Parceiros</a>
+            </li>
+
+            <li class="nav-item">
+             <a class="nav-link" href="#servicos">Serviços</a>
+            </li>
+
+            </ul>
+            </div>
+        </nav>
+
+        <section id="quemsomos">
+            <div class="container-fluid quem-somos text-center margin">       <!--Dentro da classe container ele criou uma classe quem somos, a classe container justificou a esquerda e a cor fica branco neste caso-->
+            <h3 class="margin">Quem somos</h3>
+            <img src="img/time.jpg" class="rounded-circle" width= "400" height="400" alt="Equipe de desenvolvimento">
+            <h3>Somos um time comprometido com os resultados</h3>
+            </div>
+
+        </section>
+
+        <section id="parceiros">
+            <div class="container-fluid text-center margin parceiros">
+            <h3 class="margin">Parceiros</h3>
+
+            <!--Criando na aba parceiros -->
+            <div class="container">
+            <div class="row">           <!--Dividir em partes-->
+
+            <div class="col-md-4">  <!--Lg para grande md para medio sm small-->
+            <img src="img/dio.png" width="100%" alt="Imagem DIO">
+            </div>
+
+            <div class="col-md-4">
+            <img src="img/dio.png" width="100%" alt="Imagem DIO">
+            </div>
+
+            <div class="col-md-4">
+            <img src="img/dio.png" width="100%" alt="Imagem DIO">
+            </div>
+            </div>
+            </div>
+        </section>
+
+        <section id="servicos">
+            <div class="container-fluid text-center margin servicos">
+            <h3 class="margin">Serviços</h3>
+            <div class="container">
+            <div class="row">
+
+            <div class="col-lg-4">
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            <img src="img/app.jpg" width="100%" alt="Imagem APP">
+            </div>
+
+            <div class="col-lg-4">
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            <img src="img/site2.jpg" width="100%" alt="Imagem Site">
+            </div>
+
+            <div class="col-lg-4">
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            <img src="img/site1.jpg" width="100%" alt="Imagem Site">
+            </div>
+
+            </div>
+            </div>
+            </div>
+        </section>
+
+        <footer class="conteiner-fluid text-center  bg-footer">
+        <p>Desenvolvido por Daniel Monteiro</p>
+        </footer>
+
+    </body>
+  
+
+</html>
